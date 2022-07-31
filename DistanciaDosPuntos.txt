@@ -5,6 +5,20 @@
 
 int main()
 {
+	/*
+	float x1, x2, y1, y2, distancia;
+	printf("Agregue la primera coordenada: \n");
+	scanf("%f %f", &x1, &y1);
+
+	printf("Agregue la segunda coordenada: \n");
+	scanf("%f %f", &x2, &y2);
+
+	distancia = sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
+
+	printf("La distancia entre los dos puntos es: %f\n", distancia);
+	*/
+
+	
 	char string1[255], string2[255], punto1[2], punto2[2];	//Inicializo las variables
 	float distancia;
 	printf("Agregue la primera coordenada (X1, Y1): \n");	//Pido al usuario que ingrese las coordenadas
